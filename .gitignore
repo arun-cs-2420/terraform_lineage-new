@@ -1,0 +1,37 @@
+# Terraform directories and files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive variables file (if you use one)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually local
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore .backup files
+*.backup
+
+# macOS system files
+.DS_Store
+
+# VSCode workspace settings
+.vscode/
+
+# IDE/project files
+.idea/
+*.iml
+*.swp
+
