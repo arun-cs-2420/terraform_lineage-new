@@ -2,6 +2,7 @@ locals {
   common_tags = var.projectTags
 }
 
+#target group
 resource "aws_alb_target_group" "tf_alb_tg_lineage_tms_barcode_service" {
   name                 = "${var.projectName}-${var.project_region}-${var.microserviceName}-${var.projectEnvironment}-tg"
   port                 = var.containerPort
